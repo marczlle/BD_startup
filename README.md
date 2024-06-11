@@ -1,14 +1,29 @@
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=YELLOW&style=for-the-badge)
 # BD_startup
-Código SQL aula FAP (11.06.24)
 
-## Entidades: Membros, Atividades
+Banco de dados de um projeto de início de startup.
 
-## Cardinalidade: 1-n
-   Um membro pode ter várias atividades, mas uma atividade só pode pertencer a um membro.
+## Entidades
+Membros, Atividades
 
-## Arquivo bd1.mwb 
-  MRE do banco
+## Cardinalidade
+Um para muitos (1-n)
 
-## Arquivo bdstartup.sql
-  Código SQL
-  
+## Tecnologias utilizadas
+MySQL Workbench
+
+## Funcionalidades e Demonstração da Aplicação
+Os membros da equipe são identificados pelo nome e cargo.
+As tarefas são identificadas pela descrição. Neste sistema, cada membro da equipe pode ter
+várias tarefas atribuídas, mas uma tarefa específica está ligada
+apenas a um membro da equipe.
+
+## MRE (Modelo Entidade-Relacionamento) do banco
+Arquivo: bd1.mwb 
+
+## Código SQL
+Arquivo: bdstartup.sql
+
+## Conclusão
+
+O banco de dados ajudará na organização com as informações para designações de tarefas.
