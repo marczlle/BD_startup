@@ -4,13 +4,13 @@
 Banco de dados de um projeto de início de startup.
 
 ## Entidades
-Membros, Atividades
+Membros, Atividades.
 
 ## Cardinalidade
-Um para muitos (1-n)
+Um para muitos (1-n).
 
 ## Tecnologias utilizadas
-MySQL Workbench
+MySQL Workbench.
 
 ## Funcionalidades e Demonstração da Aplicação
 Os membros da equipe são identificados pelo nome e cargo.
@@ -18,11 +18,13 @@ As tarefas são identificadas pela descrição. Neste sistema, cada membro da eq
 várias tarefas atribuídas, mas uma tarefa específica está ligada
 apenas a um membro da equipe.
 
-## MRE (Modelo Entidade-Relacionamento) do banco
-Arquivo: bd1.mwb 
-
-## Código SQL
-Arquivo: bdstartup.sql
+## Arquivos e MRE (Modelo Entidade-Relacionamento) 
+   
+   * [Descrição dos arquivos](#descrição-dos-arquivos)
+     
+      * Arquivo MRE: bd1.mwb
+      * Arquivo código: bdstartup.sql
+<img width="536" alt="MRE" src="https://github.com/marczlle/BD_startup/assets/131879933/b1776e67-ea5e-4930-819e-2160709ee8d8">
 
 ## Conclusão
 
