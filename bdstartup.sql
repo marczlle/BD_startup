@@ -33,9 +33,7 @@ UPDATE atividades SET data_inicio = "2024-06-18" WHERE atividades_id = 1;
 ALTER TABLE atividades ADD data_finalizacao date;
 UPDATE atividades SET data_finalizacao = "2024-06-19" WHERE atividades_id = 1;
 
-select * from atividades;
-select * from membros;
-
+#inserindo novos membros e atividades
 insert into membros (membro_id, nome, cargo, genero_membro) VALUES (
 (2, "João Silva", "Desenvolvedor Full Stack", "M"), 
 (3, "Maria Santos", "Analista de banco de dados", "F"), 
@@ -44,7 +42,6 @@ insert into membros (membro_id, nome, cargo, genero_membro) VALUES (
 (6, "Carlos Souza", "Especialista em segurança da informação", "M") 
 );
 
-#outra opcao melhor:
 insert into atividades (atividades_id, descricao, membro_id)  values(
 (2, "Desenvolver novo módulo de login para o sistema.", 2, "2024-06-18","2024-06-19"),
 (3, "Realizar manutenção preventiva nos servidores.", 4, "2024-06-18","2024-06-19"),
